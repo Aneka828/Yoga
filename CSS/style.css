@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body {
+    background-color: #FAFBFF;
+    font-family: 'Poppins';
+}
+
+h3,
+h5 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 14px;
+    color: #9197B3;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-size: 14px;
+    color: #9197B3;
+    font-weight: 300;
+}
+
+main {
+    /* margin: auto; */
+    display: flex;
+    gap: 36px;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+section {
+    display: flex;
+    margin-top: 10vh;
+    border-radius: 16px;
+}
+
+/* Sign in - sign up forms */
+
+.signIn-signUp-Form {
+    background-color: white;
+    border-radius: 6%;
+    margin: auto;
+    margin-top: 15vh;
+    width: 50vw;
+    box-shadow: -100px 0px 80px -130px grey, 100px 0px 80px -130px grey;
+}
+
+.signIn-Form-pad {
+    padding: 140px 46px;
+}
+
+.signUp-Form-pad {
+    padding: 48px 46px;
+}
+
+.signIn-Text {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+
+.signIn-TextSecondary {
+    text-align: center;
+    color: #ACACAC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.signIn-SignUp {
+    color: #4623E9;
+    margin-left: 5px;
+    font-style: normal;
+}
+
+.form-label {
+    font-size: 14px;
+    color: #000;
+}
+
+.form-control {
+    width: 100%;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.signIn-BtnWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.signIn-Button {
+    color: #fff;
+    background: #5932EA;
+    width: 286px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: inherit;
+    border-color: #5932EA;
+}
+
+/* Account page */
+
+/* Header */
+header {
+    justify-content: space-between;
+}
+
+.header-text {
+    margin: 28px 0 0 370px;
+    font-size: 24px;
+}
+
+.form-search {
+    margin: 28px 70px 0 0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.input-search {
+    border: none;
+    font-size: 14px;
+    padding: 10px 10px 6px 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+/* Sidebar */
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.account-aside-img {
+    margin: 20px 75px 0;
+}
+
+.account-aside-title {
+    position: relative;
+    margin-bottom: 36px;
+}
+
+.account-aside-arrowDown {
+    position: absolute;
+    right: 28px;
+    top: 6px;
+}
+
+/* aside items */
+
+.account-aside-btn {
+    display: flex;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 22px 10px 28px;
+    background: #5932EA;
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn-icon {
+    margin-right: 16px;
+}
+
+.account-aside-arrow-right {
+    margin-left: auto;
+    margin-top: 6px;
+}
+
+.account-aside-btn-inactive {
+    display: flex;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 22px 10px 28px;
+    background: #fff;
+    color: #9197B3;
+    font-size: 14px;
+}
+
+.account-aside-btn-inactive:hover {
+    background: #5932EA;
+    color: #fff;
+}
+
+.account-aside-btn-inactive:nth-last-child(1) {
+    margin-top: auto;
+}
+
+/* Sections */
+section>div {
+    display: flex;
+}
+
+.dashboard-first-section {
+    padding: 35px 20px;
+    margin-bottom: auto;
+    background: #fff;
+}
+
+.dashboard-second-section {
+    margin-top: 10vh;
+    margin-bottom: 30px;
+    background: #fff;
+    width: 300px;
+}
+
+.dashboard-statistics {
+margin: 0 70px 0 20px;
+}
+
+.dashboard-big-digits {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.dashboard-percents {
+    display: block;
+}
+
+.dashboard-separator {
+    margin-right: 28px;
+}
